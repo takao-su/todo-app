@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+
+        <form id="todo-form">
+            <input
+                type="text"
+                id="todo-input"
+                placeholder="please enter the new task"
+                autocomplete="off"
+            >
+            <button type="submit">Add</button>
+        </form>
+
+        <ul id="todo-list"></ul>
+
+        <div id="todo-stats">
+            <span id="todo-count">0 task</span>
+            <button id="clear-completed">delete</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
